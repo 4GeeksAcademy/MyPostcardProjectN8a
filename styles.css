@@ -1,0 +1,82 @@
+body {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	font-family: fantasy;
+	font-size: smaller;
+}
+
+.postcard {
+	background: white;
+	height: 10%;
+	margin-top: 10%;
+	margin-bottom: 10px;
+	margin-left: 70px;
+	position: relative;
+	margin: auto;
+	width: 40%;
+	padding: 10px;
+	-ms-transform: translateY(30%);
+	transform: translateY(30%);
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 70px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 600px;
+	height: 20px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 5px;
+	margin-bottom: 0%;
+}
+.body-right {
+	color: grey;
+	text-decoration: underline;
+	text-underline-offset: 8px;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+	width: 50%;
+}
+input {
+	border: 30px;
+	border-bottom: 1px solid grey;
+}
+p {
+	font-size: larger;
+}
+.postcard-footer {
+	text-align: 50px;
+}
+button {
+	font-family: fantasy;
+	position: relative;
+	display: flex;
+	margin-left: 30%;
+	background-color: #c0c0c0;
+	padding: 5px;
+	margin-top: 0%;
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 2px 0 rgba(0, 0, 0, 0.9);
+	border: none;
+}
+button:hover {
+	font-family: fantasy;
+	position: relative;
+	display: flex;
+	margin-left: 30%;
+	background-color: #322d44;
+	color: white;
+	padding: 5px;
+	margin-top: 0%;
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 2px 0 rgba(0, 0, 0, 0.9);
+	border: none;
+}
